@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		0A780E78248586B000395429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E77248586B000395429 /* AppDelegate.swift */; };
 		0A780E7A248586B000395429 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E79248586B000395429 /* SceneDelegate.swift */; };
-		0A780E7C248586B000395429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E7B248586B000395429 /* ViewController.swift */; };
+		0A780E7C248586B000395429 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E7B248586B000395429 /* GoalsVC.swift */; };
 		0A780E7F248586B000395429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A780E7D248586B000395429 /* Main.storyboard */; };
 		0A780E82248586B000395429 /* GoalPost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E80248586B000395429 /* GoalPost_app.xcdatamodeld */; };
 		0A780E84248586B100395429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A780E83248586B100395429 /* Assets.xcassets */; };
 		0A780E87248586B100395429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A780E85248586B100395429 /* LaunchScreen.storyboard */; };
+		0A780E93248665C400395429 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E92248665C400395429 /* GoalCell.swift */; };
+		0A780E952486743A00395429 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E942486743A00395429 /* GoalType.swift */; };
+		0A780E97248693C500395429 /* CreatGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E96248693C500395429 /* CreatGoalVC.swift */; };
+		0A780E9924869A9500395429 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E9824869A9500395429 /* UIViewControllerEx.swift */; };
+		0A780E9B2486B45700395429 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E9A2486B45700395429 /* UIViewExt.swift */; };
+		0A780E9D2486BF5500395429 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E9C2486BF5500395429 /* UIButtonExt.swift */; };
+		0A780E9F2486CBCC00395429 /* FinishCreatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A780E9E2486CBCC00395429 /* FinishCreatingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A780E74248586B000395429 /* GoalPost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoalPost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A780E77248586B000395429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A780E79248586B000395429 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A780E7B248586B000395429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A780E7B248586B000395429 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		0A780E7E248586B000395429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A780E81248586B000395429 /* GoalPost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalPost_app.xcdatamodel; sourceTree = "<group>"; };
 		0A780E83248586B100395429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A780E86248586B100395429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A780E88248586B100395429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A780E92248665C400395429 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		0A780E942486743A00395429 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		0A780E96248693C500395429 /* CreatGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatGoalVC.swift; sourceTree = "<group>"; };
+		0A780E9824869A9500395429 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
+		0A780E9A2486B45700395429 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0A780E9C2486BF5500395429 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		0A780E9E2486CBCC00395429 /* FinishCreatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishCreatingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +72,12 @@
 		0A780E76248586B000395429 /* GoalPost-app */ = {
 			isa = PBXGroup;
 			children = (
+				0A780E8F2485874B00395429 /* Extensions */,
+				0A780E912485879900395429 /* View */,
+				0A780E8E2485873D00395429 /* Enum */,
+				0A780E902485875400395429 /* Controller */,
 				0A780E77248586B000395429 /* AppDelegate.swift */,
 				0A780E79248586B000395429 /* SceneDelegate.swift */,
-				0A780E7B248586B000395429 /* ViewController.swift */,
 				0A780E7D248586B000395429 /* Main.storyboard */,
 				0A780E83248586B100395429 /* Assets.xcassets */,
 				0A780E85248586B100395429 /* LaunchScreen.storyboard */,
@@ -68,6 +85,42 @@
 				0A780E80248586B000395429 /* GoalPost_app.xcdatamodeld */,
 			);
 			path = "GoalPost-app";
+			sourceTree = "<group>";
+		};
+		0A780E8E2485873D00395429 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0A780E942486743A00395429 /* GoalType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		0A780E8F2485874B00395429 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A780E9824869A9500395429 /* UIViewControllerEx.swift */,
+				0A780E9A2486B45700395429 /* UIViewExt.swift */,
+				0A780E9C2486BF5500395429 /* UIButtonExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A780E902485875400395429 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A780E7B248586B000395429 /* GoalsVC.swift */,
+				0A780E96248693C500395429 /* CreatGoalVC.swift */,
+				0A780E9E2486CBCC00395429 /* FinishCreatingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A780E912485879900395429 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A780E92248665C400395429 /* GoalCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A780E7C248586B000395429 /* ViewController.swift in Sources */,
+				0A780E9B2486B45700395429 /* UIViewExt.swift in Sources */,
+				0A780E9D2486BF5500395429 /* UIButtonExt.swift in Sources */,
+				0A780E952486743A00395429 /* GoalType.swift in Sources */,
+				0A780E97248693C500395429 /* CreatGoalVC.swift in Sources */,
+				0A780E7C248586B000395429 /* GoalsVC.swift in Sources */,
 				0A780E78248586B000395429 /* AppDelegate.swift in Sources */,
 				0A780E82248586B000395429 /* GoalPost_app.xcdatamodeld in Sources */,
+				0A780E9924869A9500395429 /* UIViewControllerEx.swift in Sources */,
+				0A780E9F2486CBCC00395429 /* FinishCreatingVC.swift in Sources */,
+				0A780E93248665C400395429 /* GoalCell.swift in Sources */,
 				0A780E7A248586B000395429 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
