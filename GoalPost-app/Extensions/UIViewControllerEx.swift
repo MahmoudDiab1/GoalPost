@@ -22,7 +22,21 @@ extension UIViewController
         self.view.window?.layer.add(transition, forKey: kCATransition)
         present(viewController, animated: false, completion: nil)
     }
-    
+    func dismissAndPresent (viewControllerToPresent:UIViewController)
+    {
+        let transition = CATransition()
+        transition.subtype = .fromLeft
+        transition.duration = 0.7
+        transition.type = .fade
+        viewControllerToPresent.modalPresentationStyle = .fullScreen
+        guard let presentedVC = presentingViewController else { print("sd");return }
+        presentedVC.dismiss(animated: false, completion: {
+        
+        self.view.window?.layer.add(transition, forKey: kCATransition)
+            self.present(viewControllerToPresent,animated:false,completion:nil)
+        })
+        
+    }
     func dismissDetails(_ viewController:UIViewController)
     {
         let transition = CATransition()

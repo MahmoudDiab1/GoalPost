@@ -25,7 +25,7 @@
                                             <constraint firstAttribute="width" constant="30" id="tSd-AO-7g9"/>
                                         </constraints>
                                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title=" " image="scope" catalog="system"/>
+                                        <state key="normal" title=" " image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8SH-At-luw"/>
                                         </connections>
@@ -218,7 +218,7 @@
                                             <constraint firstAttribute="height" constant="30" id="K8J-eW-PSN"/>
                                             <constraint firstAttribute="width" constant="30" id="enV-eO-j4x"/>
                                         </constraints>
-                                        <state key="normal" image="Icon-76"/>
+                                        <state key="normal" image="back"/>
                                         <connections>
                                             <action selector="backPressed:" destination="ILj-FG-fNw" eventType="touchUpInside" id="BRB-bL-cWf"/>
                                         </connections>
@@ -244,7 +244,7 @@
                                         </constraints>
                                         <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numberPad"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="choose one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dv-KO-CKr">
                                         <rect key="frame" x="0.0" y="110" width="374" height="19.5"/>
@@ -356,8 +356,9 @@
                                             <constraint firstAttribute="width" constant="30" id="fOa-8T-hTn"/>
                                             <constraint firstAttribute="height" constant="30" id="tHK-nw-gFa"/>
                                         </constraints>
-                                        <state key="normal" image="Icon-76"/>
+                                        <state key="normal" image="back"/>
                                         <connections>
+                                            <action selector="backBtnPressed:" destination="2Gj-ef-DHo" eventType="touchUpInside" id="p13-cA-gQ5"/>
                                             <action selector="backPressed:" destination="ILj-FG-fNw" eventType="touchUpInside" id="Vxs-Sm-amV"/>
                                         </connections>
                                     </button>
@@ -381,7 +382,7 @@
                                 <rect key="frame" x="20" y="184" width="374" height="75.5"/>
                                 <color key="textColor" red="0.42745098039215684" green="0.73725490196078436" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="54"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="suh-XL-z3W">
                                 <rect key="frame" x="0.0" y="259.5" width="414" height="636.5"/>
@@ -397,7 +398,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="creatGoalPressed:" destination="2Gj-ef-DHo" eventType="touchUpInside" id="cjw-EE-yjD"/>
+                                            <action selector="creatBtnPressed:" destination="2Gj-ef-DHo" eventType="touchUpInside" id="gyy-yS-oDW"/>
                                             <action selector="nextPressed:" destination="ILj-FG-fNw" eventType="touchUpInside" id="OWx-uM-Ojs"/>
                                         </connections>
                                     </button>
@@ -432,7 +433,7 @@
                     </view>
                     <connections>
                         <outlet property="creatGoalBtn" destination="ztf-Et-XUW" id="1VD-DF-03Q"/>
-                        <outlet property="pointsTxtField" destination="gDm-wF-ZA6" id="UVZ-5c-y8P"/>
+                        <outlet property="goalPointsTxtField" destination="gDm-wF-ZA6" id="5iC-yI-Jfv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IxC-uI-k7N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -441,7 +442,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Icon-76" width="76" height="76"/>
-        <image name="scope" catalog="system" width="128" height="122"/>
+        <image name="addGoal" width="35" height="32"/>
+        <image name="back" width="14" height="25"/>
     </resources>
 </document>

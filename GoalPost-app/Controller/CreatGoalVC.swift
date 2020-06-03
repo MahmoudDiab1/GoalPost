@@ -15,7 +15,6 @@ class CreatGoalVC: UIViewController, UITextViewDelegate {
     @IBOutlet weak var shorTermBtn: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
     @IBOutlet weak var backBtn: UIButton!
-    
     var goalType:GoalType?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,10 +44,11 @@ class CreatGoalVC: UIViewController, UITextViewDelegate {
         
         if goalDescription.text != "" && goalDescription.text != "WHAT IS YOUR GOAL ?"
         {
-        guard let vc = storyboard?.instantiateViewController(identifier: "FinishCreatingVC") as? FinishCreatingVC
+        guard let Vc = storyboard?.instantiateViewController(identifier: "FinishCreatingVC") as? FinishCreatingVC
             else {return}
-        vc.configureData(description: goalDescription.text , goalType: goalType!)
-        presentDetails(vc)
+            Vc.configureData(description: goalDescription.text , goalType: goalType!)
+            dismissDetails(Vc)
+            
         }
         
     }

@@ -8,6 +8,10 @@
 
 import UIKit
 import CoreData
+
+
+let appDelegate = UIApplication.shared.delegate as? AppDelegate
+
 class GoalsVC: UIViewController {
 
     @IBOutlet weak var goalsTableView: UITableView!
@@ -41,7 +45,7 @@ extension UIViewController:UITableViewDelegate, UITableViewDataSource
         {
             return GoalCell ()
         }
-        cell.congigureGoalCell(goalDescription: "Solve problems at hackerrank for 3 days.Solve problems at hackerrank for 3 days.Solve problems at hackerrank for 3 day.", goalType: .longTerm, goalProgress: 5)
+        cell.congigureGoalCell(goalDescription: "Solve problems at hackerrank for 3 days.Solve problems at hackerrank for 3 days.Solve problems at hackerrank for 3 day.", goalType: .longTerm, goalPoints: 5)
                return cell
     }
     

@@ -16,11 +16,11 @@ class GoalCell: UITableViewCell {
     
     
     
-    func congigureGoalCell(goalDescription:String, goalType:GoalType, goalProgress:Int)
+    func congigureGoalCell(goalDescription:String, goalType:GoalType, goalPoints:Int)
     {
         self.goalType.text = goalType.rawValue
         self.goalDescription.text = goalDescription
-        self.goalProgress.text = String(goalProgress)
+        self.goalProgress.text = String(goalPoints)
     }
     
 }
