@@ -14,6 +14,7 @@ class GoalCell: UITableViewCell {
     @IBOutlet weak var goalType: UILabel!
     @IBOutlet weak var goalProgress: UILabel!
     
+    @IBOutlet weak var goalAchievedView: UIView!
     
     
     func congigureGoalCell(goal: Goal)
@@ -21,6 +22,14 @@ class GoalCell: UITableViewCell {
         self.goalType.text = goal.goalType
         self.goalDescription.text = goal.goalDescription
         self.goalProgress.text =  String(goal.goalProgress)
+        if goal.goalCompletionValue != goal.goalProgress
+        {
+            goalAchievedView.isHidden = true
+        }
+        else
+        {
+            goalAchievedView.isHidden = false
+        }
     }
     
 }
