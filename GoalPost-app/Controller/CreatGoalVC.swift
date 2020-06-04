@@ -50,6 +50,7 @@ class CreatGoalVC: UIViewController, UITextViewDelegate {
             dismissDetails(Vc)
             
         }
+ 
         
     }
     @IBAction func backPressed(_ sender: UIButton) {

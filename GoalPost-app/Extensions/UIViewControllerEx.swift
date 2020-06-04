@@ -45,7 +45,7 @@ extension UIViewController
         transition.type = .fade
         viewController.modalPresentationStyle = .fullScreen
         
-        // TODO:       read next line parts from documentation ( for me )
+        // TODO:read next line parts from documentation ( for me )
         self.view.window?.layer.add(transition, forKey: kCATransition)
         present(viewController, animated: false, completion: nil)
     }
